@@ -1,0 +1,9 @@
+The rails project for a blogpost on gettingt started with [[https://github.com/zetachang/react.rb#changing-the-top-level-component-name-and-search-path][react.rb]] and rails
+
+Covers:
+- Setting up [[http://opalrb.org][opal]] w/rails
+- Setting react.rb w/rails
+- Setting up isomoprhic react.rb components
+- React.rb conventions
+- Isomoprhic components Search path
+- Client only react.rb components
