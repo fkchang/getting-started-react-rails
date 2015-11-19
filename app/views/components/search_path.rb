@@ -1,4 +1,4 @@
-class SearchPath1
+class SearchPath
   include React::Component
   def render
     h1 {"::SearchPath"}
@@ -6,7 +6,7 @@ class SearchPath1
 end
 
 module Home
-  class SearchPath1
+  class SearchPath
     include React::Component
     def render
       h1 {"Home::SearchPath"}
@@ -25,7 +25,7 @@ end
 
 module Components
   module Home
-    class SearchPath1
+    class SearchPath
       include React::Component
       def render
         h2 { 'Components::Home::SearchPath' }

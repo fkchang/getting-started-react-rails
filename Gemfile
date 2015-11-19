@@ -14,7 +14,7 @@ gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
-gem 'reactive-ruby', '0.7.28'             # added for react.rb
+gem 'reactive-ruby', '0.7.29'             # added for react.rb
 gem 'react-rails', '1.3.2'               # added for react.rb
 # Use opal as the JavaScript library
 gem 'opal-rails'                     # added by --javascript=opal
@@ -37,7 +37,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
   # Call 'debugger' anywhere in the code to stop execution and get a debugger console
-  gem 'debugger'
+  gem 'debugger2'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
